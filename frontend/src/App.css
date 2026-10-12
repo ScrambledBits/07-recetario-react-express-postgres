@@ -1,0 +1,15 @@
+:root { font-family: system-ui, sans-serif; color: #222; background: #fffaf3; }
+body { margin: 0; }
+.contenedor { max-width: 900px; margin: 0 auto; padding: 1rem; }
+header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .5rem; }
+.filtros button { margin-right: .3rem; padding: .3rem .7rem; border: 1px solid #c86b26; background: #fff; border-radius: 999px; cursor: pointer; }
+.filtros button.activo { background: #c86b26; color: #fff; }
+.rejilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1rem; margin: 1rem 0 2rem; }
+.tarjeta { background: #fff; border-radius: 10px; padding: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,.1); }
+.tarjeta h3 { margin-top: 0; }
+.meta { font-size: .85rem; color: #666; }
+.tarjeta button { margin-top: .5rem; font-size: .8rem; }
+form { display: grid; gap: .5rem; background: #fff; padding: 1rem; border-radius: 10px; }
+input, textarea, select { padding: .4rem; font: inherit; }
+.error { color: #b00020; }
+.version { font-size: .75rem; color: #999; text-align: center; }
